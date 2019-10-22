@@ -13,6 +13,8 @@
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
   "entry": "index.js",
+  "siteRoot": "https://stgeorgesepiscopal.github.io",
+  "basePath": "almatools",
   "plugins": [
     [
       "/home/ryan/Projects/almaclassgrid/alma-class-grid/node_modules/react-static-plugin-source-filesystem/node.api.js",
@@ -39,9 +41,7 @@
     "HTML_TEMPLATE": "/home/ryan/Projects/almaclassgrid/alma-class-grid/dist/index.html",
     "STATIC_DATA": "/home/ryan/Projects/almaclassgrid/alma-class-grid/dist/staticData"
   },
-  "siteRoot": "/",
-  "basePath": "",
-  "publicPath": "/",
+  "publicPath": "https://stgeorgesepiscopal.github.io/almatools/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,

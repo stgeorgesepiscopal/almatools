@@ -2,6 +2,9 @@ import path from 'path'
 import axios from 'axios'
 
 export default {
+  siteRoot: 'https://stgeorgesepiscopal.github.io',
+  basePath: 'almatools',
+
   
   plugins: [
     [
