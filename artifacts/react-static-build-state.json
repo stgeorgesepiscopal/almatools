@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/ryan/Projects/almaclassgrid/alma-class-grid/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/ryan/Projects/almaclassgrid/alma-class-grid/src/pages"
+      }
+    ],
+    "/home/ryan/Projects/almaclassgrid/alma-class-grid/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/ryan/Projects/almaclassgrid/alma-class-grid/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/ryan/Projects/almaclassgrid/alma-class-grid"
+  ],
+  "paths": {
+    "ROOT": "/home/ryan/Projects/almaclassgrid/alma-class-grid",
+    "SRC": "/home/ryan/Projects/almaclassgrid/alma-class-grid/src",
+    "DIST": "/home/ryan/Projects/almaclassgrid/alma-class-grid/dist",
+    "ASSETS": "/home/ryan/Projects/almaclassgrid/alma-class-grid/dist",
+    "PLUGINS": "/home/ryan/Projects/almaclassgrid/alma-class-grid/plugins",
+    "TEMP": "/home/ryan/Projects/almaclassgrid/alma-class-grid/tmp",
+    "ARTIFACTS": "/home/ryan/Projects/almaclassgrid/alma-class-grid/artifacts",
+    "PUBLIC": "/home/ryan/Projects/almaclassgrid/alma-class-grid/public",
+    "NODE_MODULES": "/home/ryan/Projects/almaclassgrid/alma-class-grid/node_modules",
+    "EXCLUDE_MODULES": "/home/ryan/Projects/almaclassgrid/alma-class-grid/node_modules",
+    "PACKAGE": "/home/ryan/Projects/almaclassgrid/alma-class-grid/package.json",
+    "HTML_TEMPLATE": "/home/ryan/Projects/almaclassgrid/alma-class-grid/dist/index.html",
+    "STATIC_DATA": "/home/ryan/Projects/almaclassgrid/alma-class-grid/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
