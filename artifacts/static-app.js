@@ -720,7 +720,9 @@ function App() {
     className: "content"
   }, external_react_default.a.createElement(external_react_default.a.Suspense, {
     fallback: external_react_default.a.createElement("em", null, "Loading...")
-  }, external_react_default.a.createElement(Router["b" /* Router */], null, external_react_default.a.createElement(Dynamic, {
+  }, external_react_default.a.createElement(Router["b" /* Router */], {
+    basename: process.env.PUBLIC_URL
+  }, external_react_default.a.createElement(Dynamic, {
     path: "dynamic"
   }), external_react_default.a.createElement(external_react_static_["Routes"], {
     path: "*"

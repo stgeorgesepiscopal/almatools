@@ -19,7 +19,7 @@ function App() {
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Dynamic path="dynamic" />
             <Routes path="*" />
           </Router>
