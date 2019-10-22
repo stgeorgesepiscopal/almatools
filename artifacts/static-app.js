@@ -715,14 +715,12 @@ function App() {
   return external_react_default.a.createElement(external_react_static_["Root"], null, external_react_default.a.createElement("nav", null, external_react_default.a.createElement(Router["a" /* Link */], {
     to: "/"
   }, "Home"), external_react_default.a.createElement(Router["a" /* Link */], {
-    to: "/classgrid"
+    to: "classgrid"
   }, "Class Grid")), external_react_default.a.createElement("div", {
     className: "content"
   }, external_react_default.a.createElement(external_react_default.a.Suspense, {
     fallback: external_react_default.a.createElement("em", null, "Loading...")
-  }, external_react_default.a.createElement(Router["b" /* Router */], {
-    basename: process.env.PUBLIC_URL
-  }, external_react_default.a.createElement(Dynamic, {
+  }, external_react_default.a.createElement(Router["b" /* Router */], null, external_react_default.a.createElement(Dynamic, {
     path: "dynamic"
   }), external_react_default.a.createElement(external_react_static_["Routes"], {
     path: "*"
@@ -1230,7 +1228,7 @@ __webpack_require__.r(__webpack_exports__);
       textAlign: 'center'
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Welcome to Ryan's Alma Tools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Router__WEBPACK_IMPORTED_MODULE_1__[/* Link */ "a"], {
-    to: "/classgrid"
+    to: "classgrid"
   }, "Class Grid"));
 });
 

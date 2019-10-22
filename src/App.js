@@ -14,12 +14,12 @@ function App() {
     <Root>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/classgrid">Class Grid</Link>
+        <Link to="classgrid">Class Grid</Link>
         
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
             <Dynamic path="dynamic" />
             <Routes path="*" />
           </Router>
